@@ -27,6 +27,7 @@
 ```bash
 pip install torch torchvision pandas scikit-learn matplotlib
 ```
+
 ## اجرای پروژه
 کلون کردن Repo:
 ```bash
@@ -42,38 +43,40 @@ Heart-Disease-Classification-deepLearning-pytorch
 ```bash
 Heart_Disease_Classification.ipynb
 ```
+## اجرای سلول‌ها
 
-## اجرای سلول‌ها:
-دانلود و بارگذاری دیتاست از اینترنت
-آماده‌سازی داده‌ها و نرمال‌سازی
-آموزش مدل PyTorch
-نمایش Accuracy و Confusion Matrix
+- دانلود و بارگذاری دیتاست از اینترنت  
+- آماده‌سازی داده‌ها و نرمال‌سازی  
+- آموزش مدل با PyTorch  
+- نمایش Accuracy و Confusion Matrix
+  
+## دیتاست
 
-## دیتاست:
+- دیتاست **Cleveland Heart Disease** شامل ۱۴ ویژگی و یک ستون هدف (`target`) است که مشخص می‌کند بیمار بیماری قلبی دارد یا خیر.  
+- لینک دیتاست: [Cleveland Heart Disease Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data)
+  
+## ویژگی‌ها
 
-دیتاست Cleveland Heart Disease شامل ۱۴ ویژگی و یک ستون هدف (target) است که مشخص می‌کند بیمار بیماری قلبی دارد یا خیر.
-لینک دیتاست: Cleveland Heart Disease Dataset
-## ویژگی‌ها:
-age – سن
-sex – جنسیت
-cp – نوع درد قفسه سینه
-trestbps – فشار خون در حالت استراحت
-chol – کلسترول خون
-fbs – قند خون ناشتا
-restecg – ECG استراحت
-thalach – حداکثر ضربان قلب
-exang – درد قفسه سینه ناشی از ورزش
-oldpeak – افت ST ناشی از ورزش
-slope – شیب ST
-ca – تعداد رگ‌های بزرگ با گرفتگی
-thal – نوع تالاسمی
-target – برچسب بیماری (0 = سالم، 1 = بیمار)
+- `age` – سن  
+- `sex` – جنسیت  
+- `cp` – نوع درد قفسه سینه  
+- `trestbps` – فشار خون در حالت استراحت  
+- `chol` – کلسترول خون  
+- `fbs` – قند خون ناشتا  
+- `restecg` – ECG استراحت  
+- `thalach` – حداکثر ضربان قلب  
+- `exang` – درد قفسه سینه ناشی از ورزش  
+- `oldpeak` – افت ST ناشی از ورزش  
+- `slope` – شیب ST  
+- `ca` – تعداد رگ‌های بزرگ با گرفتگی  
+- `thal` – نوع تالاسمی  
+- `target` – برچسب بیماری (0 = سالم، 1 = بیمار)
+  
+## خروجی‌ها
 
-## خروجی‌ها:
-
-Accuracy: دقت مدل روی داده‌های تست
-Confusion Matrix: نمایش عملکرد مدل در دسته‌بندی سالم/بیمار
-پیش‌بینی نمونه‌ها: نمونه‌هایی از پیش‌بینی مدل
+- **Accuracy:** دقت مدل روی داده‌های تست  
+- **Confusion Matrix:** نمایش عملکرد مدل در دسته‌بندی سالم/بیمار  
+- **پیش‌بینی نمونه‌ها:** نمونه‌هایی از پیش‌بینی مدل
 
 ## توجهات
 
